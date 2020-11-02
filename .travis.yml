@@ -1,4 +1,13 @@
 language: java
 jdk:
-    - openjdk-15
-script: ant build
+    - openjdk11
+
+addons:
+    sonarcloud:
+        organization: "Letisia-Ornelle"
+        token: "ad4823cedb238ce3606c039cfa887c133cd54a29"
+        
+       
+script:
+- ant build
+- sonar-scanner
