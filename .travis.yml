@@ -4,7 +4,7 @@ jdk:
 
 addons:
     sonarcloud:
-        organization: "Letisia-Ornelle"
+        organization: "letisia-ornelle"
         token: "ad4823cedb238ce3606c039cfa887c133cd54a29"
         
        
